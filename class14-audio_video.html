@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--relative path: (can access locally) file or something is present in local file
+        absolute: not locally present but remotely present-->
+     <h1>This is a video:</h1>
+        <video controls loop autoplay muted height="300" width = "300"controls >
+         <source src="/new_html/3157002721.mp4">
+        </video>
+        <h1>Song by Taylor Swift:</h1>
+        <audio controls>
+         <source src="/new_html/Taylor_swift_Paper_Rings_(NaijaMusic.NG).mp3">
+        </audio>
+        <!--for youtube videos, use iframe tag-->
+        <h1>Shinchan:</h1>
+     
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/r6DjHScqjfo?playlist=r6DjHScqjfo&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        
+        </iframe>
+        <!--for loop in youtube videos, copy the ip of link that is availabe at the end in src after embeeded,and write it as:playlist=ip&loop=1-->
+</body>
+</html>
